@@ -10,8 +10,10 @@
   }
 
   .container {
-   display: flex;
-   flex-wrap: wrap-reverse;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
 .item{
