@@ -12,12 +12,12 @@
   .container {
     max-height: 600px;
     display: flex;
-    flex-flow: column wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: flex-start;
   }
 
 .item{
-    height: 200px;
-    width: 200px;
+    
     margin: 5px;
     text-align: center;
     padding: 5px;
@@ -25,8 +25,12 @@
 
 .item.one, .item.three, .item.five, .item.seven{
     background: red;
+    height: 300px;
+    width: 200px;
 
 }
 .item.two, .item.four, .item.six{
     background: green;
+    height: 200px;
+    width: 300px;
 }
