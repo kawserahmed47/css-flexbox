@@ -11,7 +11,7 @@
 
   .container {
    display: flex;
-   flex-direction: column-reverse;
+   flex-wrap: wrap;
   }
 
 .item{
@@ -22,10 +22,10 @@
     padding: 5px;
 }
 
-.item.one, .item.three{
+.item.one, .item.three, .item.five, .item.seven{
     background: red;
 
 }
-.item.two, .item.four{
+.item.two, .item.four, .item.six{
     background: green;
 }
